@@ -1,0 +1,60 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    box-shadow: 10px 10px 10px 0px rgba(1, 0, 0, .2);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.calories {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.ingredients {
+    font-size: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+    border-radius: 100vh;
+    padding: 10px;
+    max-height: 300px;
+}
+
+@media only screen and (max-width: 400px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .calories {
+        font-size: 10px;
+    }
+
+    .ingredients {
+        font-size: 10px;
+    }
+
+    img {
+        max-height: 150px;
+    }
+
+}

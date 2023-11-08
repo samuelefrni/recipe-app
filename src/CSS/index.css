@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playpen Sans";
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}

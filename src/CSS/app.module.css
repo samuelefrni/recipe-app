@@ -1,0 +1,77 @@
+.app {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchForm {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchInput {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.searchInput::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+.searchButton {
+    cursor: pointer;
+    font-family: "Playpen Sans";
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    color: white;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 5px 20px 1px rgba(1, 0, 0, .4);
+}
+
+.searchButton:hover {
+    opacity: .8;
+}
+
+.notFoundContainer {
+    padding: 10px;
+}
+
+.noResults {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.load {
+    min-height: 100vh;
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .searchInput {
+        font-size: 15px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 15px;
+    }
+
+}
