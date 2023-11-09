@@ -7,12 +7,14 @@ Click here to <a href="https://samuelefrni-recipe-app.netlify.app/"><strong>webs
 
 ## Introduction to Project
 
-**Recipe App**, the project consist in the creation of an App that allows the user to search by a keywords recipes!
+**Recipe App**, the project consist in the creation of an App that allows the user to search recipes by a keyword!
 
 ## Usage
 
 On the initial screen you can go and write a keyword, from the keyword a search will start and will show you the relevant recipes!
+In the box the user can find, the name of the recipe, the image, the calories and the ingridients!
 
+<div align="center"><strong>Let's Cook!</strong></div>
 <div align="center"><img src="./img/Usage-mobile.gif"></div>
 
 # React + Vite
