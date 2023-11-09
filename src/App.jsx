@@ -8,7 +8,7 @@ import creds from './creds';
 
 const App = () => {
   const [recipes, setRecipes] = useState([]);
-  const [input, setInput] = useState();
+  const [input, setInput] = useState("");
 
   const client = axios.create({
     baseURL: `https://api.edamam.com/api/recipes/v2?type=public&q=${input}&app_id=${creds.API_ID}&app_key=${creds.API_KEY}`
@@ -53,9 +53,9 @@ const App = () => {
               <span className={appCSS.noResults}>♨️No results found♨️</span>
             </div>
           ) :
-            recipes.map((el) => (
+            recipes.map((el, index) => (
               <Recipes
-                key={el.recipe.label}
+                key={index}
                 title={el.recipe.label}
                 calories={el.recipe.calories}
                 img={el.recipe.image}
