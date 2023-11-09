@@ -5,15 +5,9 @@
 Click here to <a href="https://samuelefrni-recipe-app.netlify.app/"><strong>website</strong></a>
 </p>
 
-## Table of contents
-
-- [Introduction to Project](#introduction-to-project)
-- [Usage](#usage)
-- [React + Vite](#React-+-Vite)
-
 ## Introduction to Project
 
-**Recipe App** The project consist in the creation of an App that allows the user to search by a keywords recipes!
+**Recipe App**, the project consist in the creation of an App that allows the user to search by a keywords recipes!
 
 ## Usage
 
