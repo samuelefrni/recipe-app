@@ -11,10 +11,11 @@ Click here to <a href="https://samuelefrni-recipe-app.netlify.app/"><strong>webs
 
 ## Usage
 
-On the initial screen you can go and write a keyword, from the keyword a search will start and will show you the relevant recipes!
+On the initial screen you can go and write a keyword, from the keyword a search will start and will show you the relevant recipes!<br>
 In the box the user can find, the name of the recipe, the image, the calories and the ingridients!
 
-<div align="center"><strong>Let's Cook!</strong></div>
+<div align="center"><h1>Let's Cook!</h1></div>
+
 <div align="center"><img src="./img/Usage-mobile.gif"></div>
 
 # React + Vite
