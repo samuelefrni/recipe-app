@@ -15,13 +15,9 @@ Click here to <a href="https://samuelefrni-recipe-app.netlify.app/"><strong>webs
 
 **Recipe App** The project consist in the creation of an App that allows the user to search by a keywords recipes!
 
-<div align="center"><img src="https://ibb.co/zsmq0LK" width="800px"></div>
-
 ## Usage
 
 On the initial screen you can go and write a keyword, from the keyword a search will start and will show you the relevant recipes!
-
-<div align="center"><img src="./img/Usage.gif"></div>
 
 <div align="center"><img src="./img/Usage-mobile.gif"></div>
 
